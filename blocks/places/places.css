@@ -1,0 +1,16 @@
+.places {
+  display: grid;
+  grid-template-columns: minmax(48px, auto) minmax(928px, 988px) minmax(48px, auto);
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    grid-template-columns: minmax(24px, 48px) minmax(720px, 928px) minmax(24px, 48px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    grid-template-columns: minmax(0, 24px) minmax(320px, 720px) minmax(0, 24px);
+  }
+}

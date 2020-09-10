@@ -1,0 +1,16 @@
+.cover__link {
+  width: 100%;
+  grid-column: 2/3;
+  grid-row: 1/-1;
+  display: block;
+  z-index: 2;
+  opacity: .3;
+  background-color: #2A2C2F;
+  transition: .3s;
+}
+
+.cover__link:hover {
+  opacity: .8;
+  transition: .3s;
+  background-color: #2A2C2F;
+}

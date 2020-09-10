@@ -1,0 +1,16 @@
+.intro {
+  display: grid;
+  grid-template-columns: minmax(48px, auto) minmax(928px, 984px) minmax(48px, auto);
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    grid-template-columns: minmax(24px, auto) minmax(auto, 928px) minmax(24px, auto);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    grid-template-columns: minmax(16px, auto) minmax(auto, 927px) minmax(16px, auto);
+  }
+}

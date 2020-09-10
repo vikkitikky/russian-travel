@@ -1,0 +1,23 @@
+.header__lang-link {
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.header__lang-hide:checked + .header__lang-link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header__lang-hide:hover + .header__lang-link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
