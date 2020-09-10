@@ -1,0 +1,12 @@
+.cover {
+  display: grid;
+  grid-template: repeat(2,auto)/minmax(0, auto) minmax(320px, 1184px) minmax(0, auto);
+  justify-items: center;
+  row-gap: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    row-gap: 8%;
+  }
+}

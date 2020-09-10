@@ -1,0 +1,5 @@
+.footer__menu {
+  grid-column: 2/3;
+  grid-row: 1;
+  justify-self: start;
+}

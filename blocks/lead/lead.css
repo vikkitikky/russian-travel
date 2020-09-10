@@ -1,0 +1,13 @@
+.lead {
+  display: grid;
+  grid-template-columns: minmax(48px, auto) minmax(928px, 984px) minmax(48px, auto);
+  justify-items: center;
+  margin-top: 56px;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    grid-template-columns: minmax(0, auto) minmax(auto, 927px) minmax(0, auto);
+    margin-top: 48px;
+  }
+}

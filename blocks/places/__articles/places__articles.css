@@ -1,0 +1,8 @@
+.places__articles {
+  grid-column: 2/3;
+  display: grid;
+  row-gap: 80px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

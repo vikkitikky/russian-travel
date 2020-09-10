@@ -1,0 +1,16 @@
+.header {
+  display: grid;
+  grid-template: 28px auto/minmax(48px, auto) minmax(928px, 1184px) minmax(48px, auto);
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    grid-template: 28px auto/minmax(24px, auto) minmax(288px, 928px) minmax(24px, auto);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    grid-template: 16px auto/minmax(16px, auto) calc(100% - 32px) minmax(16px, auto);
+  }
+}
