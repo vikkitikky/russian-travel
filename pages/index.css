@@ -2,10 +2,11 @@
 @import url(../vendor/font.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__wrapper/header__wrapper.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__lank-link/header__lang-link.css);
-@import url(../blocks/header/__lang-hide/header__lang-hide.css);
+@import url(../blocks/header/__choose-lang/header__choose-lang.css);
+@import url(../blocks/header/__lang-option/header__lang-option.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_checked/header__lang-link_checked.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
