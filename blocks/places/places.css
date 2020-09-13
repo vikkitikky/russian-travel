@@ -1,11 +1,11 @@
 .places {
   display: grid;
-  grid-template-columns: minmax(48px, auto) minmax(928px, 988px) minmax(48px, auto);
+  grid-template-columns: minmax(48px, auto) minmax(720px, 988px) minmax(48px, auto);
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 999px) {
   .places {
-    grid-template-columns: minmax(24px, 48px) minmax(720px, 928px) minmax(24px, 48px);
+    grid-template-columns: minmax(24px, 48px) minmax(720px, 988px) minmax(24px, 48px);
   }
 }
 

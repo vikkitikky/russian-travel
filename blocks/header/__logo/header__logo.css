@@ -1,4 +1,9 @@
-@media screen and (max-width: 375px) {
+.header__logo {
+  grid-column: 2/3;
+  grid-row: -1;
+}
+
+@media screen and (max-width: 470px) {
   .header__logo {
     width: 142px;
   }

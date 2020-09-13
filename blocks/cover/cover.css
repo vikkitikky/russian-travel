@@ -1,12 +1,16 @@
 .cover {
   display: grid;
-  grid-template: repeat(2,auto)/minmax(0, auto) minmax(320px, 1184px) minmax(0, auto);
-  justify-items: center;
-  row-gap: 32px;
+  grid-template-columns: minmax(48px, auto) minmax(1024px, 1184px) minmax(48px, auto);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1120px) {
   .cover {
-    row-gap: 8%;
+    grid-template-columns: minmax(0, 48px) minmax(1024px, 1184px) minmax(0, 48px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    grid-template-columns: 0 minmax(auto, 1023px) 0;
   }
 }

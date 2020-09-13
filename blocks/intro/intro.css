@@ -5,12 +5,12 @@
 
 @media screen and (max-width: 1023px) {
   .intro {
-    grid-template-columns: minmax(24px, auto) minmax(auto, 928px) minmax(24px, auto);
+    grid-template-columns: minmax(24px, 48px) minmax(720px, 928px) minmax(24px, 48px);
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
-    grid-template-columns: minmax(16px, auto) minmax(auto, 927px) minmax(16px, auto);
+    grid-template-columns: minmax(16px, 24px) minmax(288px, auto) minmax(16px, 24px);
   }
 }

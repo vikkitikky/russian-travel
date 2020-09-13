@@ -3,19 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="pages/index.css">
   <title>Путешествия по России</title>
   <base target="_blank">
 </head>
 <body class="page">
   <header class="header">
-    <div class="header__wrapper">
-      <img src="images/__logo.svg" class="header__logo" alt="Россия">
-      <input type="radio" name="choose-lang" value="ru" id="ru" class="header__lang-hide" checked>
-      <label for="ru" class="header__lang-link">RU</label>
-      <input type="radio" name="choose-lang" value="en" id="en" class="header__lang-hide">
-      <label for="en" class="header__lang-link">EN</label>
-    </div>
+    <img src="images/__logo.svg" class="header__logo" alt="Россия">
+    <ul class="header__lang-choice">
+      <li class="header__lang-option"><a href="#" class="header__lang-link header__lang-link_checked">ru</a></li>
+      <li class="header__lang-option"><a href="#" class="header__lang-link">en</a></li>
+    </ul>
   </header>
 
   <main class="content">
@@ -41,20 +39,20 @@
     </section>
 
     <section class="photo-grid">
-      <div class="photo-grid__wrapper">
-        <img src="./images/photo-grid-train.jpg" alt="Вид из окна" class="photo-grid__image">
-        <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Горы" class="photo-grid__image">
-        <img src="./images/photo-grid-tuman.jpg" alt="Туманное поле" class="photo-grid__image">
-        <img src="./images/photo-grid-sochi.jpg" alt="Горы Сочи" class="photo-grid__image">
-        <img src="./images/photo-grid-arisa.jpg" alt="Лёд" class="photo-grid__image">
-        <img src="./images/photo-grid-baikal.jpg" alt="Байкал" class="photo-grid__image">
-        <img src="./images/photo-grid-elbrus.jpg" alt="Эльбрус" class="photo-grid__image">
-        <img src="./images/photo-grid-kondratiev.jpg" alt="Кондратьев" class="photo-grid__image">
-        <img src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка" class="photo-grid__image">
-        <img src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка" class="photo-grid__image">
-        <img src="./images/photo-grid-baikal-2.jpg" alt="Байкал" class="photo-grid__image">
-        <img src="./images/photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__image">
-      </div>
+      <ul class="photo-grid__gallery">
+        <li class="photo-grid__item"><img src="./images/photo-grid-train.jpg" alt="Вид из окна" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-atharva-tulsi.jpg" alt="Горы" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-tuman.jpg" alt="Туманное поле" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-sochi.jpg" alt="Горы Сочи" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-arisa.jpg" alt="Лёд" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-baikal.jpg" alt="Байкал" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-elbrus.jpg" alt="Эльбрус" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-kondratiev.jpg" alt="Кондратьев" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-baikal-2.jpg" alt="Байкал" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__image"></li>
+      </ul>
     </section>
 
     <section class="places">
@@ -127,10 +125,10 @@
     </section>
 
     <section class="cover">
-      <div class="cover__background"></div>
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link"></a>
-      <h3 class="cover__title">До Байкала «на&nbsp;собаках»</h3>
-      <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
+        <h3 class="cover__title">До Байкала «на&nbsp;собаках»</h3>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
+      </a>
     </section>
   </main>
 

@@ -5,9 +5,20 @@
   margin-top: 56px;
 }
 
+@media screen and (max-width: 1100px) {
+  .lead {
+    margin-top: 48px;
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .lead {
-    grid-template-columns: minmax(0, auto) minmax(auto, 927px) minmax(0, auto);
-    margin-top: 48px;
+    grid-template-columns: minmax(0, 48px) minmax(768px,928px) minmax(0, 48px);
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .lead {
+    grid-template-columns: 0 auto 0;
   }
 }

@@ -1,0 +1,11 @@
+.header__lang-choice {
+  grid-column: 2/3;
+  grid-row: -1;
+  justify-self: end;
+  align-self: end;
+  display: flex;
+  gap: 18px;
+  list-style: none;
+  margin: 0 0 6px;
+  padding: 0;
+}

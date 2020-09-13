@@ -1,16 +1,16 @@
 .photo-grid {
   display: grid;
-  grid-template-columns: minmax(48px, auto) minmax(288px,1184px) minmax(48px, auto);
+  grid-template-columns: minmax(48px, auto) 1184px minmax(48px, auto);
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
   .photo-grid {
-    grid-template-columns: minmax(24px, 48px) minmax(720px,928px) minmax(24px, 48px);
+    grid-template-columns: minmax(24px, 48px) minmax(720px, 1184px) minmax(24px, 48px);
   }
 }
 
 @media screen and (max-width: 767px) {
   .photo-grid {
-    grid-template-columns: minmax(16px, 24px) minmax(288px,718px) minmax(16px, 24px);
+    grid-template-columns: minmax(16px, 24px) minmax(288px, 720px) minmax(16px, 24px);
   }
 }

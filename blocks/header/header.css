@@ -3,14 +3,20 @@
   grid-template: 28px auto/minmax(48px, auto) minmax(928px, 1184px) minmax(48px, auto);
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1100px) {
   .header {
-    grid-template: 28px auto/minmax(24px, auto) minmax(288px, 928px) minmax(24px, auto);
+    grid-template: 28px auto/48px auto 48px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 999px) {
   .header {
-    grid-template: 16px auto/minmax(16px, auto) calc(100% - 32px) minmax(16px, auto);
+    grid-template: 28px auto/24px auto 24px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .header {
+    grid-template: 28px auto/16px auto 16px;
   }
 }

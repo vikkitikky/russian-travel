@@ -3,19 +3,22 @@
   grid-row: 1;
   font-size: 72px;
   line-height: 76px;
+  font-weight: 900;
   color: #ffffff;
   margin: 0;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 999px) {
   .places__title {
-    font-size: 5.5vw;
-    line-height: 110%;
+    font-size: 32px;
+    line-height: 35px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 470px) {
   .places__title {
-    margin: 0 16px;
+    font-size: 42px;
+    line-height: 46px;
+    margin-left: 16px;
   }
 }
