@@ -1,16 +1,22 @@
 .intro {
   display: grid;
-  grid-template-columns: minmax(48px, auto) minmax(928px, 984px) minmax(48px, auto);
+  grid-template-columns: auto minmax(928px, 984px) auto;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .intro {
+    grid-template-columns: minmax(auto, 148px) minmax(928px, 984px) minmax(auto, 148px);
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
   .intro {
     grid-template-columns: minmax(24px, 48px) minmax(720px, 928px) minmax(24px, 48px);
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) and (min-width: 320px) {
   .intro {
-    grid-template-columns: minmax(16px, 24px) minmax(288px, auto) minmax(16px, 24px);
+    grid-template-columns: minmax(16px, 24px) minmax(288px, 720px) minmax(16px, 24px);
   }
 }

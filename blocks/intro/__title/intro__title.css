@@ -1,6 +1,7 @@
 .intro__title {
   grid-column: 2/3;
-  margin: 0 0 40px;
+  margin-top: 0;
+  margin-bottom: 40px;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
@@ -8,16 +9,9 @@
   max-width: 690px;
 }
 
-@media screen and (max-width: 990px) {
-  .intro__title {
-    margin-top: 88px
-  }
-}
-
 @media screen and (max-width: 720px) {
   .intro__title {
     font-size: 32px;
     line-height: 35px;
-    margin-top: 64px;
   }
 }
