@@ -31,8 +31,6 @@
 
 .cover__link:hover::after {
   opacity: .8;
-  transition: .3s;
-  z-index: 1;
 }
 
 @media screen and (max-width: 665px) {
